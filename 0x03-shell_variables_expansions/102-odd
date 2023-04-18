@@ -1,2 +1,2 @@
-#!/bin/bash 
-tr 'A-Za-z' 'N-ZA-Mn-za-m'
+#!/bin/bash
+perl -lne 'print if $. % 2 ==1' 
